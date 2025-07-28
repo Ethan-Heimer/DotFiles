@@ -6,7 +6,7 @@ This is the config I use for my personal desktop, which looks like this when con
 
 ## About
 
-# Alacritty
+### Alacritty
 
 The Alacritty terminal emulator works the best for this setup. Theres is a Wezterm config
 included, however there seems to be a bug with Wezterm and Picom that causes XOrg to 
