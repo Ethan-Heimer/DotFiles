@@ -61,7 +61,7 @@ Picom is a compositor, and is what allows windows to be blured and have rouned c
 ### Polybar
 Polybar is the status bar at the top of the screen. The config can get tricky, but at the surface theres three bars.
 - The leftmost bar displays workspace and window information. 
-- The center bar is a custom module that controlls media. 
+- The center bar is a custom media module (found [here](https://github.com/Ethan-Heimer/Mediabar)) that controlls media. 
 - The right bar contains everything else!
 
 `playerctl` is requiered for the center media bar to work. 
