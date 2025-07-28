@@ -54,3 +54,17 @@ This config should be pretty much plug and play, Lazy should install its self if
 Mason should install all requiered LSPs. By default 'lua_ls', 'ts_ls', and 'clangd' LPSs are installed. 
 
 Some other information, 'theme.lua' enables transparent backgrounds, and 'vim-options.lua' handles vim keybinds.
+
+### PiCom
+Picom is a compositor, and is what allows windows to be blured and have rouned corners. The config is simple- it just enables the blur and rounded corners.
+
+### Polybar
+Polybar is the status bar at the top of the screen. The config can get tricky, but at the surface theres three bars.
+- The leftmost bar displays workspace and window information. 
+- The center bar is a custom module that controlls media. 
+- The right bar contains everything else!
+
+`playerctl` is requiered for the center media bar to work. 
+
+### Rofi
+Rofi is used as a replacement for Dmenu. The config file mostly handles styling. Nothing crazy.
