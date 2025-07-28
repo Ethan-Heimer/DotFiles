@@ -35,3 +35,22 @@ Some extra keybinds defined in the config:
 - `$mod+d` executes 'rofi' as a Dmenu replacement.
 
 This config is dependent on many other applications to work, so it might break if one is missing.
+
+### NeoVim
+
+Neovim configs can get long, so this is only a surface level explanation for future reference.
+This config is using the 'Lazy' package manager. The packages used are as follows:
+
+- `'ethan-heimer/crookedtheme'` is a theme manager, `'ethan-heimer/crookedteeth'` is the theme
+- `"williamboman/mason.nvim"`, `"williamboman/mason-lspconfig.nvim"`, and `"neovim/nvim-lspconfig"` handle installing and using Language Servers.
+- `"nvim-lualine/lualine.nvim"` adds a better looking status bar.
+- `'prichrd/netrw.nvim'`, `'nvim-tree/nvim-tree.lua'`, and `'nvim-tree/nvim-web-devicons'` configure and add a file tree to the side. 
+- `"folke/noice.nvim"` just makes things look good!
+- `'nvim-telescope/telescope.nvim'` is used to GREP and find files.
+- `"nvim-treesitter/nvim-treesitter"` is used for better syntax highlighting. 
+
+Each package is configured in the `/nvim/lua/plugins/` directory, more information on the configuration can be found there.
+This config should be pretty much plug and play, Lazy should install its self if needed, and install all missing packages.
+Mason should install all requiered LSPs. By default 'lua_ls', 'ts_ls', and 'clangd' LPSs are installed. 
+
+Some other information, 'theme.lua' enables transparent backgrounds, and 'vim-options.lua' handles vim keybinds.
