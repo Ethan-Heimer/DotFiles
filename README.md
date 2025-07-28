@@ -18,8 +18,20 @@ The Config is super simple as all it does is set the font and style the terminal
 
 i3 is a tiling windows manager. The config here is a lot, but here are the important bits:
 
-- Desktop wallpaper is set in the `$wallpaper` variable. you must use the the absolute path of the wallpaper
+- Desktop wallpaper is set in the `$wallpaper` variable. You must use the the absolute path of the wallpaper
 - `$terminal` defines what terminal command is ran when `$mod+Return` is pressed. By Default its Alacritty.
 - By default, window focus and movement keys are 'j', 'k', 'h', 'l' to resemble VIM
 - The terminal and firefox are opened on startup.
 - 'feh', 'picom', and 'polybar' are all executed at startup.
+
+picom and polybar has there own configs elsewhere, however 'feh' is configured here.
+'feh' is used to display the wallpaper.
+
+Some extra keybinds defined in the config:
+- `$mod+shift+x` executes 'i3lock' to lock the screen.
+- `$mod+shift+p` executes 'flameshot GUI'- a screenshot tool.
+- `$mod+shift+d` executes 'discord'.
+- `$mod+shift+s` executes 'spotify'.
+- `$mod+d` executes 'rofi' as a Dmenu replacement.
+
+This config is dependent on many other applications to work, so it might break if one is missing.
