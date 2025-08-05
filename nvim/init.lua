@@ -1,5 +1,4 @@
 require("vim-options")
-require("theme")
 -- For Lua (in init.lua)
 
 --Bootstrap Lazy Package Manager
