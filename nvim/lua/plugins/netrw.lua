@@ -28,13 +28,13 @@ return {
                     sorter = "case_sensitive",
                 },
                 view = {
-                    width = 30,
+                    width = 20,
                 },
                 renderer = {
-                    group_empty = false,
+                    group_empty = true,
                 },
                 filters = {
-                    dotfiles = false,
+                    dotfiles = true,
                 },
             })
         end
