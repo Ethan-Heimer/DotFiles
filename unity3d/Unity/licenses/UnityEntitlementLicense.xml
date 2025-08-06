@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <License Id="Terms" IssueDate="2025-07-24T04:25:34.741Z" Version="1.0">
+    <EntitlementGroups>
+      <EntitlementGroup Id="20066369140560-UnityPersonal" Namespace="unity_editor" Product="Unity Personal" SubsGroup="Unity Editor" Tag="UnityPersonal" Type="EDITOR">
+        <Context>
+          <User Id="20066369140560" />
+          <StartDate>2020-07-11T00:02:11Z</StartDate>
+          <UpdateDate>2025-08-23T04:25:34.741Z</UpdateDate>
+          <Identifiers>
+            <Identifier Id="3c040d8029444ab0bc792f5ca1f424d4" Type="Legacy.MachineBinding1" />
+            <Identifier Id="3c040d8029444ab0bc792f5ca1f424d4" Type="Legacy.MachineBinding2" />
+          </Identifiers>
+        </Context>
+        <Entitlements>
+          <Entitlement Id="com.unity.editor" />
+          <Entitlement Id="com.unity.editor.ui" />
+          <Entitlement Id="com.unity.editor.headless" />
+          <Entitlement Id="com.unity.editor.dark-skin" />
+          <Entitlement Id="com.unity.editor.legacy.team-license" />
+          <Entitlement Id="com.unity.editor.platforms.android" />
+          <Entitlement Id="com.unity.editor.platforms.ios" />
+          <Entitlement Id="com.unity.editor.platforms.uwp" />
+        </Entitlements>
+      </EntitlementGroup>
+    </EntitlementGroups>
+  </License>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments" />
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="#Terms">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>RccIGupiX9dr283NF9dxkOO976LF1Vo4xuTRbDA0LbU=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>NBLqS/dlZViZOle1NLHEPu6q45SfVejVi02CliMMGXJ6/MQqU8rGT6y+D9Gs1jpFKWCWB91kdn3a
+gsfq8nEQIqkMUYIop2lDkENwA4+8Kmitn8cE1hCjlMOB/ZUVlG38Un6FsquB2HvznEMwnjF8Eema
+d0/7NCrr9l+xHgoVRG0PaijMQDNXT5wvZY74nPTvI8aGdH1xb89+UaUFgj2d+kgDwEL3JFKJgAHc
+YVCr2ROJDPPi/oY+FxWaBJAUPaE0FshYCGZqlGC2Jc4oi/xCrfz3/itFPg8ezGlh54nlJNlTO2eO
+5VDQw2juC+VJZD3VJqH8+fSSS4r2GEZqNCsG0w==</SignatureValue>
+  </Signature>
+</root>

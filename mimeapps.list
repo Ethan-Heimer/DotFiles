@@ -1,0 +1,5 @@
+[Default Applications]
+application/json=nvim.desktop
+
+[Added Associations]
+application/json=nvim.desktop;
