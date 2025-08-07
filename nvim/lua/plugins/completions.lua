@@ -1,5 +1,8 @@
 return {
     {
+        "hrsh7th/cmp-nvim-lsp"
+    },
+    {
 	    "L3MON4D3/LuaSnip",
 	    -- follow latest release.
 	    version = "v2.*", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
@@ -38,7 +41,7 @@ return {
                 }),
 
                 sources = cmp.config.sources({
-                  --{ name = 'nvim_lsp' },
+                  { name = 'nvim_lsp' },
                   { name = 'luasnip' }, -- For luasnip users.
                 },
                 {

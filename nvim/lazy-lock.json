@@ -1,9 +1,10 @@
 {
   "LuaSnip": { "branch": "master", "commit": "458560534a73f7f8d7a11a146c801db00b081df0" },
+  "cmp-nvim-lsp": { "branch": "main", "commit": "a8912b88ce488f411177fc8aed358b04dc246d7b" },
   "cmp_luasnip": { "branch": "master", "commit": "98d9cb5c2c38532bd9bdb481067b20fea8f32e90" },
   "crookedpastel": { "branch": "main", "commit": "e03dac18ae09fe82b84f915a1dc3ff8f6ac87f2d" },
   "crookedslick": { "branch": "main", "commit": "5bdad994d3f92278131b0bcbd1c683cad853273a" },
-  "crookedteeth": { "branch": "master", "commit": "4050315864214d35dc692c6f5b21b496823cc126" },
+  "crookedteeth": { "branch": "master", "commit": "d04e5286dfb9fbcdfe7fc78db7c8168868580ece" },
   "crookedtheme": { "branch": "4.1", "commit": "05285734f9bb687af40605e71e25897f75294175" },
   "friendly-snippets": { "branch": "main", "commit": "572f5660cf05f8cd8834e096d7b4c921ba18e175" },
   "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
