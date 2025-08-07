@@ -19,7 +19,6 @@ return {
 			local lspconfig = require("lspconfig")
 			lspconfig.lua_ls.setup({})
 			lspconfig.ts_ls.setup({})
-            
 			lspconfig.clangd.setup({})
 
 			vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
@@ -32,6 +31,7 @@ return {
                 underline = true,
                 update_in_insert = true
             })
+
 		end
-	}
+	},
 }
