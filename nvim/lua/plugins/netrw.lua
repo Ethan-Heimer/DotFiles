@@ -31,7 +31,7 @@ return {
                     width = 20,
                 },
                 renderer = {
-                    group_empty = true,
+                    group_empty = false,
                 },
                 filters = {
                     dotfiles = true,
